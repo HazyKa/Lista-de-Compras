@@ -27,7 +27,6 @@ body {
 .separar {
     padding: 1rem;
     display: flex;
-    width: 15rem;
 }
 
 #submit {
@@ -45,4 +44,11 @@ body {
 
 #lista div {
     width: 6rem;
+}
+
+.dividir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5rem;
 }
