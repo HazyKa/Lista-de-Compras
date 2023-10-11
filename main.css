@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.meio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10rem 0rem;
+    color: white;
+}
+
+.meio input {
+    width: 15rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.separar {
+    padding: 1rem;
+    display: flex;
+    width: 15rem;
+}
+
+#submit {
+    background-color: rgb(146, 141, 141);
+    border-radius: 2rem;
+    width: 7rem;
+    margin: 0.5rem;
+}
+
+#lista {
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+#lista div {
+    width: 6rem;
+}
